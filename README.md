@@ -7,5 +7,7 @@ Each assignment or lab is assigned to a new branch. You can see all the assignme
 ### Assignments and Labs 📖
 Find all the assignments and labs here 👇
 - [CV Assignment](https://github.com/WahabDev12/web-tech-2022/tree/CV_Assignment_WK1)
+- [Layout Assignment](https://github.com/WahabDev12/web-tech-2023/tree/Layout-Assignment-WK2)
+
    
 
