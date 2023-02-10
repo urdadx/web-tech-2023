@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <title>Abdul Wahab CV</title>
+    <script defer type="text/javascript"  src="main.js"></script>
 </head>
 <body>
     <main>
@@ -38,7 +39,7 @@
                 <div class="quick-wrapper">
                     <div class="first_section">
                         <ol class="quick-ul">
-                            <li> <ion-icon name="mail-outline"></ion-icon> abassabdulwahab3@gmail.com</li>
+                            <li > <ion-icon name="mail-outline"></ion-icon> <span class="user-email">abassabdulwahab3@gmail.com</span></li>
                             <li> <ion-icon name="location-outline"></ion-icon> Greater Accra, Ghana</li>
                             <li><ion-icon name="logo-linkedin"></ion-icon> https://linkedin.com/in/abdul-abass</li>
                         </ol>
@@ -46,7 +47,7 @@
 
                     <div class="second-section">
                         <ul class="quick-ul">
-                            <li> <ion-icon name="call-outline"></ion-icon> 0249726275</li>
+                            <li> <ion-icon name="call-outline"></ion-icon> <span class="user-phone">0249726275</span></li>
                             <li> <ion-icon name="calendar-outline"></ion-icon> 21 December, 2002</li>
                         </ul>
                     </div>
@@ -184,8 +185,32 @@
                     </div>  
                 </div>
             </section>
+            
         </main>
-    
+        <hr></hr>
+
+        <main class="main-two"> 
+            <div class="form-container">
+                <form id="form">
+                    <div class="header-container">
+                        <h3 class="form-header">Ashesi CV Form</h3>
+
+                        <h4 class="form-info">Please fill the form with your details</h4>
+                    </div>
+                    <!-- Form details -->
+                    <div class="input-container">
+                        <input class="form-username" placeholder="Username" />
+                        <input class="form-email" placeholder="Email" />
+                        <input class="form-phone" placeholder="Phone Number" />
+                        <input class="form-bio" placeholder="Your Bio" />
+
+                        <button type="submit" class="btn">Submit details</button>
+                    </div>
+                </form>
+            </div>
+
+        </main>
+        
 </body>
 
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
